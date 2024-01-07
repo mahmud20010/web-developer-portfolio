@@ -275,3 +275,6 @@ main section {
 .input_paddig { 
     margin: 10px 0px;
 }
+.submit{
+    text-align: left;
+}
