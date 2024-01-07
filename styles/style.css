@@ -113,31 +113,165 @@ nav a {
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: rgba(253, 110, 10, 0.20);
+    ;
     margin: 130px 0;
-   
+
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section {
+    margin-top: 150px;
+}
+
 .section_title {
     color: #181818;
     text-align: center;
-    
+
     font-size: 35px;
-    
+
     font-weight: 700;
-    
+
 }
-.about_container{
+
+.about_container {
     padding: 20px 0px;
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
+
+}
+
+.about_info {
+    text-align: center;
+}
+
+#what_i_do_description {
+    padding: 30px 155px;
+    text-align: center;
+}
+
+.skill_container {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.skill_description {
+    color: #757575;
+}
+
+.Resume_section {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+
+}
+
+.resume_title {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.resume_item {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.resume_container_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.download_cv_btn {
+    text-align: center;
+    position: relative;
+}
+
+#download_btn {
+    text-align: center;
+    padding-left: 55px;
+}
+
+.fa-download {
+    position: absolute;
+    margin-left: -180px;
+    margin-top: 55px;
+    padding-right: 25px;
+    color: white;
+
+}
+
+.footer_title {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.footer_main {
+    margin: 0 auto;
+}
+
+.footer_container {
+    display: flex;
+   justify-content: space-evenly;
+    gap: 100px;
+    text-align: center;
+    background: #FFF8F3;
+    margin-top: 100px;
+    /* margin: 0 auto; */
+    padding: 130px 200px;
+}
+
+.footer {
+    max-width: 1140px;
    
 }
-.about_info{
-     text-align: center;
+
+.input_style {
+    width: 461px;
+    height: 64px;
+    padding: 0 5px;
+    border: none;
+}
+.social_media img{
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.message {
+    width: 460px;
+    padding: 0 15px;
+    border: none;
+   
+}
+
+.input_paddig { 
+    margin: 10px 0px;
 }
